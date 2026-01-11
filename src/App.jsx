@@ -5,6 +5,7 @@ import Login from './components/login.jsx'
 import SignUp from './components/signUp.jsx'
 import Navbar from './navbar.jsx'
 import Home from './components/home.jsx'
+import MoviePosting from './components/MoviePosting/movieposting.jsx'
 function Layout() {
   return (
     <>
@@ -35,6 +36,11 @@ function App() {
         {
           path: "home",
           element: <Home />
+        },
+        {
+
+          path: "movieposting",
+          element: <MoviePosting />
         }
         
       ]

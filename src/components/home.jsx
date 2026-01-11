@@ -1,9 +1,11 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./home.css";
 
 function Home() {
   const [movies, setMovies] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchMovies = async () => {
@@ -23,6 +25,7 @@ function Home() {
   return (
     <div>
       <h1 id="title">Welcome to the Movie Page</h1>
+      <button id="post-movie-button" onClick={()=>navigate("/movieposting")}>Post a Movie</button>
 
       <div className="movie-container">
         {movies.map((movie) => (
