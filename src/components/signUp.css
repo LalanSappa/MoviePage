@@ -1,0 +1,40 @@
+#link-btn{
+    color: green;
+    text-decoration: underline;
+}
+ #link-btn:hover{
+    cursor: pointer;
+    color: orange;
+}
+#Register-Page{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+}
+#btn{
+    width: 100px;
+    padding:5px;
+    margin-top: 20px;
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn:hover{
+    background-color: orange;
+    color:orangered;
+    cursor: pointer;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+}

@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#button{
+    width: 100px;
+    padding:5px;
+    margin-right: 50px;
+    background-color: blue;
+    border-radius: 50px;
+}
+#button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+#button2{
+    width: 100px;
+    padding:5px;
+    margin-right: 50px;
+    background-color: green;
+    border-radius: 10px;
+    color: wheat;
+}
+#button2:hover{
+    background-color: lightgreen;
+    color: darkgreen;
+    cursor: pointer;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    background-color:beige;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+body{
+    background-image: url('https://cdn.vectorstock.com/i/500p/18/24/green-cinema-background-with-golden-film-reel-vector-49691824.avif');
+    background-size: cover;
+    background-position: center;
+}
